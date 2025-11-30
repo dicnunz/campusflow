@@ -52,7 +52,7 @@
   "img content"
   "data content";
   height: inherit;
-  @media screen and(max-width: $desktop-breakpoint){
+  @media screen and (max-width: $desktop-breakpoint){
     display: flex;
     flex-direction: column;
   }
@@ -70,7 +70,7 @@
   background-position: center;
   background-repeat: no-repeat;
   box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.75);
-  @media screen and(max-width: $desktop-breakpoint){
+  @media screen and (max-width: $desktop-breakpoint){
     display: none;
   }
   // &:hover{
@@ -186,7 +186,7 @@
     align-items: flex-end;
     justify-content: end;
     margin-bottom: 2rem;
-    @media screen and(max-width: $desktop-breakpoint){
+    @media screen and (max-width: $desktop-breakpoint){
       display: flex;
       align-items: flex-end;
       justify-content: center;
@@ -197,7 +197,7 @@
     padding-right: 40px;
     color : #7B7B7B;
   } 
-  @media screen and(max-width: $desktop-breakpoint){
+  @media screen and (max-width: $desktop-breakpoint){
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -223,7 +223,7 @@
   position : absolute;
 	right : 5px;
   bottom : -15px;
-  @media screen and(max-width:$desktop-breakpoint){
+  @media screen and (max-width:$desktop-breakpoint){
     right : 33vw;
     bottom : -5px;
   }
